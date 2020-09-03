@@ -7,7 +7,7 @@ public class Employee implements Serializable{
 	public String name;
 	public double salary;
 	
-	Employee(int eid, String name, double salary)
+	public Employee(int eid, String name, double salary)
 	{
 		this.eid = eid;
 		this.name = name;
